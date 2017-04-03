@@ -8,8 +8,8 @@ galaxy_info:
 
   platforms:
   - name: Ubuntu
-   versions:
-   - xenial
+    versions:
+    - xenial
 
   galaxy_tags: []
 
