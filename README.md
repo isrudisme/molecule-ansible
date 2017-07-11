@@ -3,7 +3,7 @@ Create and testing ansible role using Molecule and serverspec
 
 ## Introduction
 I have post about this repo in my blog. So basicly this is just sample code for experiment.  
-Here [my url post]() about this molecule in my blog.
+Here [my url post](https://tuanpembual.wordpress.com/2017/04/03/molecule-automate-testing-tool-untuk-ansible-roles) about this molecule in my blog.
 
 ## Dependency
 * virtualbox
@@ -44,7 +44,7 @@ platforms:
 More about `serverspec` testing can be found at [serverspec.org](http://serverspec.org/resource_types.html)
 
 ## Debug  
-`$ ssh vagrant@127.0.0.1 -p 2222 -i $(pwd)/nginx/.vagrant/machines/nginx/virtualbox/private_key`
+`$ ssh ubuntu@127.0.0.1 -p 2222 -i $(pwd)/nginx/.vagrant/machines/nginx/virtualbox/private_key`
 
 ## Implement v1
 hosts file need create manual, and make sure public key configured  
