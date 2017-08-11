@@ -10,6 +10,7 @@
     - python
     - nginx
     - curl
+    - net-tools
   become: yes
   notify:
     - restart nginx
